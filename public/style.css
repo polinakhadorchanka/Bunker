@@ -1,0 +1,74 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #f5f5f5;
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+}
+
+#startDiv {
+    padding: 20px;
+    border: 1px solid #4756ae;
+}
+
+#startButton, #rules input {
+    width: 340px;
+    height: 60px;
+
+    border: none;
+    outline: none;
+    background-color: #697eff;
+    color: #ffffff;
+    font-size: 18px;
+
+    cursor: pointer;
+}
+
+#startButton:hover, #rules input:hover {
+    background-color: #4756ae;
+}
+
+h1 {
+    margin: 0 0 10px;
+    text-align: center;
+    color: #4756ae;
+}
+
+.userCard {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 30%;
+
+    font-size: 0.9em;
+
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, .2);
+}
+
+#newGameButton, .game #rules input {
+    margin-bottom: 10px;
+    width: 120px;
+    height: 30px;
+    border: none;
+    outline: none;
+    background-color: #697eff;
+    color: #ffffff;
+    font-size: 0.9em;
+
+    cursor: pointer;
+}
+
+#newGameButton:hover, .game #rules input:hover {
+    background-color: #4756ae;
+}

@@ -1,0 +1,30 @@
+{
+  "name": "frontend_online_electronics_store",
+  "scripts": {
+    "dev": "webpack-dev-server --open --hot --history-api-fallback",
+    "build": "webpack"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.9.13",
+    "@material-ui/icons": "^4.9.1",
+    "react": "^16.5.0",
+    "react-dom": "^16.5.0",
+    "react-icons": "^3.9.0",
+    "react-redux": "^7.2.0",
+    "react-router": "latest",
+    "react-router-dom": "^5.1.2",
+    "redux": "^4.0.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "@material-ui/core": "^4.9.7",
+    "@material-ui/icons": "^4.9.1",
+    "babel-loader": "^8.0.0",
+    "babel-polyfill": "^6.26.0",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9"
+  }
+}
